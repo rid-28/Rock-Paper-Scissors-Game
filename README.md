@@ -35,6 +35,6 @@ Play against the computer with sound effects, score tracking, and a smooth UI ex
 - CSS
 - JavaScript (Vanilla)
 
-## 📁 Live Demo
+## 🌐 Live Site
 
 👉 [Play it here](https://rid-28.github.io/Rock-Paper-Scissors-Game/)
