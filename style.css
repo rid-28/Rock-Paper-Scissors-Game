@@ -152,3 +152,83 @@ button:disabled {
   box-shadow: none;
   border-color: #444;
 }
+
+@media (max-width: 1024px) {
+  body {
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+  }
+
+  .game-container {
+    padding: 25px 30px;
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 4rem;
+    text-shadow: 0 0 12px rgba(159, 90, 253, 0.3);
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .buttons button {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  .choice-visual {
+    flex-direction: column;
+    font-size: 1.05rem;
+    gap: 12px;
+  }
+
+  .choice-visual div {
+    width: 100%;
+  }
+
+  .score-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .reset button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+  }
+
+  .buttons button {
+    font-size: 0.9rem;
+  }
+
+  .choice-visual {
+    font-size: 1rem;
+  }
+
+  .player-score,
+  .computer-score {
+    font-size: 0.9rem;
+  }
+
+  .player-score span,
+  .computer-score span {
+    font-size: 1.2rem;
+  }
+}
