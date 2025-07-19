@@ -15,6 +15,7 @@ Play against the computer with sound effects, score tracking, and a smooth UI ex
 - 🖐️ **Shows choices** made by both player and computer
 - 🎯 First to **5 points wins the match**
 - 🔁 **Play Again** option after a match ends
+- 📱 Fully responsive layout for mobile and tablet devices
 
 ## 📸 Preview
 
